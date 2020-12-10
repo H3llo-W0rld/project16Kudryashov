@@ -1,15 +1,15 @@
 ﻿// KudryashovAnatoliy16.cpp : Цей файл містить функцію "main". Тут починається і закінчується виконання програми
 
-#include <iostream>
-#include <string>
-#include <algorithm>
-#include <fstream>
-#include <sstream>
-using namespace std;
+#include <iostream> //ввод вивід
+#include <string> //строчний тип
+#include <algorithm> //набір функцій (для факторіалу знадобиться)
 // це клас
 // Цей клас виконує завдання від А до Д 
+#include <fstream> //для запису в і з файлу
+#include <sstream> //робота з рядками через інтерфейс потоків
+using namespace std; //
 
-class Permutations {
+class Permutations { //перестановки
 public:// Цей модіфікатор приватності. Він тут не обов'язковий, він відповідає за видимість полів и методів класу в наслідниках
     // Це поля класу
     // Їх можна вткликати в методах класу
