@@ -122,10 +122,10 @@ public:// Цей модіфікатор приватності. Він тут н
 };
 int main()
 {
-    setlocale(LC_ALL, "russian");
+    setlocale(LC_ALL, "russian"); //ukrainian на жаль не працює
     int n;
     int k;
-    int flg;
+    int flg; //змінні описані - існують поза функцією, не описані лише в ній
     while (true) {
         cout << "Запустити тест з файлу - 2\n запустити тест - 1\n Завершити роботу - 0\n";
         cin >> flg;
