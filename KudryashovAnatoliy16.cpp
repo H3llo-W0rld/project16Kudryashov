@@ -35,7 +35,7 @@ public:// Цей модіфікатор приватності. Він тут н
     //Повторюйте, поки не дійдете до n
     void show_all_subsets(int num = 0, string s = "") {
 
-        if (num == n)
+        if (num == n) // == це порівняння, а не надання значення
         {
             ans[iteration] = s;
             iteration++;
@@ -154,7 +154,7 @@ int main()
             test.show_all_Permutations();
             in.close();     // закриваємо файл
         }
-        if (flg == 1) {
+        if (flg == 1) { //версія для перевірки
             cout << "Вкажїть n\n";
             cin >> n;
             Permutations test{ n };
@@ -167,7 +167,7 @@ int main()
             cout << "Кїлькість всїх перестановок без повторїв\n";
             test.show_all_Permutations();
         }
-        if (flg == 0)
+        if (flg == 0) // зачинити програму
             return 0;
     }
     return 0;
